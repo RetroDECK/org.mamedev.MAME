@@ -14,3 +14,4 @@ jobs:
     uses: RetroDECK/components-template/.github/workflows/build_artifacts.yml@main
     with:
         MANIFEST_FILENAME: "org.mamedev.MAME.yaml"
+        RUNS_ON: "retrodeck"
